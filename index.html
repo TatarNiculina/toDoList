@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-do-List</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+
+    </head>
+<body>
+    <header>
+        <div class="row ">
+			<div class="intro col-sm-12">
+				<h1>Good morning! Time to be productive!</h1>
+				<div>
+					<div class="border1"></div>
+					
+				</div>
+			</div>
+		</div>
+
+    </header>
+<main>
+
+	<div class="container">
+		
+
+		<div id="overlay" class="row">
+			<div class="helpText col-sm-12">
+                <h2>Instructions:</h2>
+				<p id="first">1.Enter text into the input field to add items to your list.</p>
+				<p id="second">2.Click the item to mark it as complete.</p>
+				<p id="third">3.Click the "X" to remove the item from your list.</p>
+			</div>
+		</div>
+
+        <div id="overlay2">
+		<div class="row">
+			<div class="col-12">
+				<input id="userInput" type="text" placeholder="New item..." maxlength="27">
+				<button id="enter"><i class="fas fa-pencil-alt"></i>Enter task</button>
+			</div>
+		</div>
+
+		<!-- Empty List -->
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+		</div>
+    </div>
+
+	</div>
+</main>
+<footer>
+    <div class="row">
+        <p class="col-sm-4">&copy; Made with &hearts; by Niculina Ciogolea</p>
+    </div>
+</footer>
+	<script type="text/javascript" src="./script.js"></script>
+
+</body>
+</html>
+
